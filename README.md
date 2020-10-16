@@ -1,2 +1,2 @@
-# DataMiningProject
-Data Mining Project
+# Data Mining Project
+Data understanding and preparation.
