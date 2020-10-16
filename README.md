@@ -1,2 +1,2 @@
-# DataMiningProject
-Data Mining Project
+# Data Mining Project
+Clustering analysis.
