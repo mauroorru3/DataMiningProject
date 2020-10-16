@@ -1,4 +1,3 @@
 # DataMiningProject
 Data Mining Project
--Data understanding and preparation;
--Cluster analysis.
+1) Data understanding and preparation; 2) cluster analysis.
