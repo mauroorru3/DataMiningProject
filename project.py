@@ -22,32 +22,6 @@ print(df.head())
 print()
 print(df.tail())
 
-#Types of Attributes and basic checks
-
-
-print()
-print("Features types")
-print(df.dtypes)
-print()
-print("Features info")
-print(df.info())
-
-# Check the values of the first element
-
-print()
-print("First elements values:")
-print(df.iloc[0])
-
-
-# Basic Statistics
-print()
-print("Statistics:")
-print(df.describe())
-
-"""
-Per sostituire dei valori:
-df["total_bill"].replace({"aaaaa": 0}, inplace=True)
-"""
 
 
 sys.exit(0)
