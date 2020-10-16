@@ -101,12 +101,11 @@ print()
 print()
 print("Missing values for CustomerID")
 print(df[df['CustomerID'].isnull()])
-print("Number of missing values for CustomerID: ", len(df[df['CustomerID'].isnull()]))
-
+print("Number of missing values for CustomerID: ", df['CustomerID'].isnull().sum())
 print()
 print("Missing values for ProdDescr")
 print(df[df['ProdDescr'].isnull()])
-print("Number of missing values for ProdDescr: ", len(df[df['ProdDescr'].isnull()]))
+print("Number of missing values for ProdDescr: ", df['ProdDescr'].isnull().sum())
 
 # Box plots
 
