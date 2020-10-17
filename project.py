@@ -117,6 +117,13 @@ print("Missing values for ProdDescr")
 print(df[df['ProdDescr'].isnull()])
 print("Number of missing values for ProdDescr: ", df['ProdDescr'].isnull().sum())
 
+#select the records ProdID = DOT
+# Valore strano, dato che tutti gli altir ProdID hanno come valore un intero.
+
+print("Record ProdID == DOT")
+print(df[df['ProdID']=='DOT'])
+print("Number of ProdID equal to DOT: "+str(len(df[df['ProdID']=='DOT'])))
+
 # Box plots
 
 
