@@ -44,6 +44,7 @@ print("First elements values:")
 print(df.iloc[0])
 
 
+
 # Basic Statistics
 print()
 print("Statistics:")
@@ -74,6 +75,15 @@ print("Number of distinct Values in CustomerCountry: ", len(df.CustomerCountry.u
 print("Number of distinct Values in ProdID:", len(df.ProdID.unique()))
 print("Number of Distinct Values in ProdDescr: ", len(df.ProdDescr.unique()))
 print("Number of Distinct Values in Qta: ", len(df.Qta.unique()))
+
+# Removing dublicates
+
+df_mod = df.drop_duplicates()
+print("Removing duplicates")
+print("Original length: "+str(len(df)))
+print("Length without duplicates "+str(len(df_mod)))
+print("Total duplicates: "+str(len(df)-len(df_mod)))
+
 
 
 # Missing Values Detection
